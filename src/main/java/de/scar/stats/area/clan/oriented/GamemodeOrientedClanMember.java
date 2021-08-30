@@ -2,6 +2,7 @@ package de.scar.stats.area.clan.oriented;
 
 import de.scar.stats.area.clan.ClanMember;
 import de.scar.stats.area.game.PlayerGameStatistic;
+
 import java.util.ArrayList;
 
 public class GamemodeOrientedClanMember extends ClanMember {

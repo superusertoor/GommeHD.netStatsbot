@@ -2,13 +2,11 @@ package de.scar.stats.discord.guild.commands.gomme;
 
 import de.scar.stats.area.association.Association;
 import de.scar.stats.area.association.AssociationsHandler;
-import de.scar.stats.area.game.Alias;
 import de.scar.stats.area.game.PlayerGameStatistic;
 import de.scar.stats.area.guild.Server;
 import de.scar.stats.area.guild.ServerHandler;
 import de.scar.stats.area.other.CustomEmbed;
 import de.scar.stats.area.other.Embeds;
-import de.scar.stats.main.StatsBot;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 

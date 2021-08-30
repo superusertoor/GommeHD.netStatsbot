@@ -1,6 +1,5 @@
 package de.scar.stats.area.association;
 
-import de.scar.stats.area.clan.Clan;
 import de.scar.stats.area.clan.objects.Clantag;
 import de.scar.stats.area.guild.Server;
 import de.scar.stats.area.guild.ServerHandler;
@@ -8,7 +7,6 @@ import de.scar.stats.area.other.CustomEmbed;
 import me.kbrewster.exceptions.APIException;
 import me.kbrewster.exceptions.InvalidPlayerException;
 import me.kbrewster.mojangapi.MojangAPI;
-import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 

@@ -6,7 +6,6 @@ import net.dv8tion.jda.api.entities.Member;
 import net.dv8tion.jda.api.entities.TextChannel;
 
 import java.awt.*;
-import java.util.EnumMap;
 
 public class CustomEmbed {
 

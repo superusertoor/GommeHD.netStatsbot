@@ -8,6 +8,7 @@ import de.scar.stats.area.clan.enums.ClanType;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+
 import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.List;

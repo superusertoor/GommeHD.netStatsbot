@@ -1,7 +1,6 @@
 package de.scar.stats.area.clan;
 
 import com.machinepublishers.jbrowserdriver.JBrowserDriver;
-import com.sun.security.auth.callback.TextCallbackHandler;
 import de.scar.stats.area.clan.enums.ClanRank;
 import de.scar.stats.area.clan.enums.ClanType;
 import de.scar.stats.area.clan.objects.ClanDescription;
@@ -13,9 +12,10 @@ import net.dv8tion.jda.api.entities.MessageEmbed;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+
 import java.awt.*;
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 

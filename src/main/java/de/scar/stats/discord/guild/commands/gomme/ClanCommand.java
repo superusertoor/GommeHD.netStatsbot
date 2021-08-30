@@ -1,6 +1,9 @@
 package de.scar.stats.discord.guild.commands.gomme;
 
-import de.scar.stats.area.clan.*;
+import de.scar.stats.area.clan.Clan;
+import de.scar.stats.area.clan.ClanHistory;
+import de.scar.stats.area.clan.ClannameCache;
+import de.scar.stats.area.clan.ClantagCache;
 import de.scar.stats.area.clan.enums.ClanType;
 import de.scar.stats.area.clan.objects.Clantag;
 import de.scar.stats.area.clan.oriented.GamemodeOrientedClan;

@@ -4,7 +4,6 @@ import de.scar.stats.area.game.GommeHDNetwork;
 import de.scar.stats.area.guild.Server;
 import de.scar.stats.area.guild.ServerHandler;
 import de.scar.stats.area.other.CustomEmbed;
-import de.scar.stats.main.StatsBot;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 

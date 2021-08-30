@@ -7,6 +7,7 @@ import de.scar.stats.area.clan.objects.Clantag;
 import de.scar.stats.discord.exceptions.ClanNotFoundException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+
 import java.util.ArrayList;
 import java.util.List;
 

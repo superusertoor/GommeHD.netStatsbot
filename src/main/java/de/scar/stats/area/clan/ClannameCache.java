@@ -1,7 +1,6 @@
 package de.scar.stats.area.clan;
 
 import de.scar.stats.area.clan.objects.Clanname;
-import de.scar.stats.area.clan.objects.Clantag;
 
 import java.util.HashMap;
 import java.util.stream.Collectors;

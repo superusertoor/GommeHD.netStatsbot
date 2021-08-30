@@ -1,21 +1,13 @@
 package de.scar.stats.discord.guild.commands.mojang;
 
 import com.google.common.collect.Lists;
-import com.google.gson.Gson;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-import com.google.gson.stream.JsonReader;
 import de.scar.stats.area.guild.Server;
 import de.scar.stats.area.guild.ServerHandler;
 import de.scar.stats.area.other.CustomEmbed;
-import jdk.internal.util.xml.impl.ReaderUTF8;
 import me.kbrewster.exceptions.APIException;
 import me.kbrewster.exceptions.InvalidPlayerException;
 import me.kbrewster.mojangapi.MojangAPI;
-import me.kbrewster.mojangapi.authentication.AuthenticatedUser;
 import me.kbrewster.mojangapi.profile.Name;
-import me.kbrewster.mojangapi.profile.Profile;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
@@ -25,12 +17,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 import java.awt.*;
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.UUID;
